@@ -4,6 +4,7 @@
   text-align: center;
   align-items: center;
 }
+
 /* navbar */
 #navbar {
   height: 90px;
@@ -40,7 +41,6 @@
   margin-top: 44rem;
 }
 .showcase-content {
-  margin-top: 21rem;
   background-color: #000;
 }
 .l-heading {
