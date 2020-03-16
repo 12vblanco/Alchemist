@@ -108,6 +108,7 @@ p {
     padding: 0 18%;
     color: #fff;
     background-color: #000;
+    margin-top: 6rem;
     /* overlay */
     /* position: absolute;
     top: 120px;
@@ -123,6 +124,7 @@ p {
     justify-content: space-around;
     height:250px;
     width: 100vw;
+    margin-top: 2rem;
   }
     .container img {
     margin: 0.8rem 0.3rem;
