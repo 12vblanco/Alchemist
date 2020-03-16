@@ -49,3 +49,7 @@
 .map {
   margin-top: 30rem;
 }
+.dark {
+  color: #000;
+  font-size: 16rem;
+}
