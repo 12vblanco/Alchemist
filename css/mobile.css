@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+}
+/* navbar */
+#navbar {
+  height: 90px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#navbar ul {
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 0.2rem;
+}
+#navbar ul li a {
+  font-size: 0.9rem;
+  padding: 12px;
+  margin: -6px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#navbar ul li i { 
+  font-size: 1.1rem;
+}
+.logo {
+  margin: -1.2rem 0;
+  display: block;
+  position: absolute;
+  text-align: center;
+}
+#what {
+  margin-top: 42rem;
+}
+.showcase-content {
+  margin-top: 16rem;
+  background-color: #000;
+}
+.l-heading {
+  font-size: 32px;
+}
+.map {
+  margin-top: 30rem;
+}

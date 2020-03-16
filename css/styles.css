@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Dr+Sugiyama|Poppins&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins'; 
+  line-height: 1.4;
+  background-color: #000;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0.75rem 0;
+  }
+  .py-1 {padding: 1.5rem;}
+  .py-2 {padding: 2rem;}
+  .py-3 {padding: 3rem;}
+
+  /* Utility Classes */
+  .text-primary {
+    color: #93cb52;
+  }
+  .l-heading  {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.2;
+  }
+  .m-heading  {
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+  }
+  .text-center {
+    text-align: center;
+  }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;  
+  justify-content: center;
+}
+.bg-dark {
+  background: #fff;
+  color: #000;
+}
+.bg-primary {
+  color: #fff;
+}
+.btn-dark {
+  width: 50px;
+
+}
+
+
+  /* Navbar */
+  #navbar {
+    display: flex;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background: #000000;
+    color: #fff;
+    justify-content: space-around;
+    z-index: 1;
+    padding: 1rem;
+    height:120px;
+  }
+  .logo {
+   font-family: 'Dr Sugiyama', cursive;
+   font-size: 3em;
+   justify-content: center;
+  }
+ 
+  #navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    }
+  #navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25;
+  }
+  #navbar ul li a:hover {
+    background: #222;
+    border-radius: 8px;
+  }
+  /* Showcase */
+  #showcase {
+    background: #333 url('#') no-repeat center center/cover;
+    height: 75vh;
+    color: #000;
+    }
+  #showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 18%;
+    color: #fff;
+
+    /* overlay */
+    /* position: absolute;
+    top: 120px;
+    left: 0;
+    height: 75vh;
+    background-color: rgb(0,0,0,0.3) */
+  }
+  /* what */
+  #what {
+    display: flex;
+    background: #000000;
+    color: #fff;
+    justify-content: space-around;
+    height:250px;
+    width: 100vw;
+  }
+    .container img {
+    margin: 0.8rem 0.3rem;
+    border: #000 solid 4px;
+    width: 200px;
+    height: 200px;
+    }
+    /* testimony */
+    #testimony {
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+      margin: 1rem;
+      border: #000 solid 4px;
+    }
+    #testimony img {
+      background: #fff;
+      display: flex;
+      height: 200px;
+      width: 340px;
+    }
+   
+  /* contact */
+  #contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+
+  }
+  #contact .map {
+    height: 100%;
+  }
+  #contact .contact-form .form-group {
+    margin: 0.75rem;
+  }
+  #contact .contact-form label {
+    display: block;
+    }
+  #contact .contact-form input, #contact .contact-form textarea {
+    width: 100%;
+    padding: 0.6rem;
+  }
+ #contact .contact-form .btn-dark {
+    font-weight: 700;   
+    border: 0;
+    border-radius: 1rem;
+    width: 30%;
+    height: 50%;
+    }
