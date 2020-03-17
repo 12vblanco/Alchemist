@@ -132,6 +132,9 @@ p {
     width: 200px;
     height: 200px;
     }
+    .details img {
+      width: 340px;
+    }
     /* testimony */
     #testimony {
       height: 20vh;
@@ -156,6 +159,7 @@ p {
     text-align: center;
 
   }
+
   #contact .map {
     height: 100%;
   }
