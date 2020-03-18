@@ -9,7 +9,7 @@ body {
   font-family: 'Poppins'; 
   line-height: 1.4;
   background-color: #000;
-}
+  }
 a {
   text-decoration: none;
 }
@@ -28,6 +28,7 @@ p {
     font-size: 2.5rem;
     margin-bottom: 0.75rem;
     line-height: 1.2;
+    max-width: 80%;
   }
 .dark {
    color: #000;
@@ -69,13 +70,13 @@ p {
     color: #fff;
     justify-content: space-around;
     z-index: 1;
-    padding: 1rem;
     height:120px;
   }
   .logo {
    font-family: 'Dr Sugiyama', cursive;
-   font-size: 3em;
+   font-size: 2.6em;
    justify-content: center;
+   text-align: center;
   }
  
   #navbar ul {
@@ -133,7 +134,7 @@ p {
     height: 200px;
     }
     .details img {
-      width: 340px;
+      width: 320px;
     }
     /* testimony */
     #testimony {
@@ -161,7 +162,12 @@ p {
   }
 
   #contact .map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100%;
+    color: #fff;
   }
   #contact .contact-form .form-group {
     margin: 0.75rem;
@@ -180,3 +186,77 @@ p {
     width: 30%;
     height: 50%;
     }
+#faq {
+    padding: 2rem;
+    color: #fff;
+    margin: 0 12rem;
+}
+
+ /* Portfolio */
+ #portfolio {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  margin: 2rem 12rem;
+}
+.container-port {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-port .img-area-port {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.container-port .img-area .img-small {
+  padding: 0.75rem;
+    }
+.container-port .img-area-port .img-small img {
+  display: flex;
+  border: solid 4px;
+  border-color: #000;
+
+  }
+.container-port .img-area-port .img-small:hover {
+  transition: 1s;
+  transform: scale(1.1);
+  }
+
+  /* footer */
+#footer {
+  display: inline;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #000000;
+  color: #fff;
+  height: 2.1rem;
+   z-index: 1;
+}
+.footer-text {
+  width: 100%;
+  font-size: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #fff;
+  margin: 0 0.25rem;
+  /* fix text in mobile center */
+}
+.footer-text i {
+  font-size: 26px;
+  justify-content: center;
+  padding-left: 6px;
+  margin-top: 4px;
+}
+.copy {
+  font-size: 0.75rem;
+  justify-content: center;
+  text-align: center;
+}
