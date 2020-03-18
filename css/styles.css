@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dr+Sugiyama|Poppins&display=swap');
 *{
+  /*  */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -76,11 +77,11 @@ a {
       flex: 1;
       object-fit: contain;
       align-self: auto;
-      padding-bottom: 4rem;
+      padding-bottom: 4rem; 
     }
     #showcase .showcase-content .showcase-text {
       display: flex;
-      flex: 2;
+      flex: 2; 
       object-fit: contain;
       align-self: auto;
       padding: 1rem 3rem;
