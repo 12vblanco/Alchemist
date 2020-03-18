@@ -39,6 +39,7 @@
   text-align: center;
 }
 /* what */
+
 #what {
   margin-top: 44rem;
 }
@@ -67,5 +68,6 @@ h1 .dark {
 margin: 0;
 }
 .img-area-port .img-small img {
+  margin-right: 1rem;
   max-width: 300px;
 }
