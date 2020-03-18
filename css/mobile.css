@@ -15,7 +15,7 @@
 
 }
 #navbar ul {
-  margin-top: 1.9rem;
+  margin-top: 2rem;
 
   text-align: center;
   justify-content: center;
@@ -24,13 +24,13 @@
 }
 #navbar ul li a {
   font-size: 0.9rem;
-  margin: -6px;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
 #navbar ul li i { 
   font-size: 1.1rem;
+  padding: 0.75rem 0 0.75rem 0;
 }
 .logo {
   margin: -0.8rem 0;
@@ -38,36 +38,68 @@
   position: absolute;
   text-align: center;
 }
-/* what */
 
-#what {
-  margin-top: 44rem;
-}
 #showcase {
-  margin-top: 20rem;
-
+height: 100%;
+margin-top: 2rem;
 }
-.showcase-content {
-  background-color: #000;
-}
-.l-heading {
-  font-size: 32px;
-}
-.map {
-  margin-top: 30rem;
-}
-h1 .dark {
-  color: #000;
-  font-size: 16rem;
-}
-#contact {
-  text-align: center;
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
   justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+  background-color: #000;
+  }
+  #showcase .showcase-content .showcase-logo {
+    display: flex;
+    object-fit: contain;
+    max-width: 90%;
+    padding: 0;
+  }
+  #showcase .showcase-content .showcase-text {
+    display: flex;
+    object-fit: contain;
+    font-size: 1.2rem;
+    padding: 0;
+    width: 90%;
+    font-weight: bold;
+    line-height: 1.2rem;
+    text-align: justify;
 }
-#faq {
-margin: 0;
+ 
+  .showcase-row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .showcase-row img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 320px;  
+    margin: 1rem;
+  }
+
+/* Portfolio */
+.container {
+  padding: 0;
 }
 .img-area-port .img-small img {
-  margin-right: 1rem;
+  padding:  0.4rem 0.8rem 0.4rem 0.8rem;
   max-width: 300px;
 }
+.container .img-small img{
+  margin-right: 1rem;
+  padding: 0;
+  justify-content: center;
+  
+}
+
+/* footer */
+.footer-text {
+margin: 6px 0 0 0;
