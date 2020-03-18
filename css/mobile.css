@@ -76,6 +76,7 @@ margin-top: 2rem;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
+    margin-top: 1rem;
   }
   .showcase-row img {
     display: flex;
