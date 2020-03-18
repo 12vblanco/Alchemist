@@ -229,34 +229,26 @@ p {
 
   /* footer */
 #footer {
-  display: inline;
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   background: #000000;
   color: #fff;
   height: 2.1rem;
    z-index: 1;
 }
 .footer-text {
-  width: 100%;
   font-size: 0.6rem;
   display: flex;
   justify-content: center;
-  align-content: center;
   color: #fff;
-  margin: 0 0.25rem;
-  /* fix text in mobile center */
+  margin-right: 4rem;
+
 }
 .footer-text i {
   font-size: 26px;
-  justify-content: center;
-  padding-left: 6px;
-  margin-top: 4px;
 }
 .copy {
   font-size: 0.75rem;
-  justify-content: center;
-  text-align: center;
 }
