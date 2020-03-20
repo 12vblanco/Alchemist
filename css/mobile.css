@@ -101,7 +101,7 @@ margin-top: 2rem;
   max-width: 90%;
   margin-top: 1rem;
   padding-bottom: 2rem;
-  
+
 }
  
   .showcase-row {
@@ -122,6 +122,13 @@ margin-top: 2rem;
 /* Portfolio */
 .container {
   padding: 0;
+}
+.container .img-area-port{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%%;
 }
 .img-area-port .img-small img {
   padding:  0.4rem 0.8rem 0.4rem 0.8rem;
