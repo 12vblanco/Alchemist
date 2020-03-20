@@ -131,27 +131,18 @@ margin-top: 2rem;
 .container {
   display: flex;
   flex-wrap: wrap;
-  width: 100vw;  
   justify-content: center;
-  padding: 3rem;
 }
 #portfolio .img-small {
+  margin-right: 1rem;
   padding: 0.8rem;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-}
+  }
 
 .img-area-port .img-small img {
   padding:  0.4rem 0.8rem 0.4rem 0.8rem;
   max-width: 300px;
 }
-.container .img-small img{
-  padding: 0;
-  justify-content: center;
-  
-}
+
 
 /* footer */
 
