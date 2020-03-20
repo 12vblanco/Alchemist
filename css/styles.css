@@ -69,17 +69,33 @@ a {
     height: 70vh;
     color: #000;
      }
+  #showcase {
+    background: #000 ;
+    height: 50vh;
+    color: #000;
+       }
   #showcase .showcase-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 80vh;
+    height: 60vh;
     color: #c5c4c4;
     background-color: #000;
     padding: 1rem 8rem 2rem 8rem;
     }
+    #showcase2 .showcase-content2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      height: 50vh;
+      color: #c5c4c4;
+      background-color: #000;
+      padding: 1rem 8rem 2rem 8rem;
+      }
     #showcase .showcase-content .showcase-logo {
       display: flex;
       flex: 1;
@@ -97,6 +113,17 @@ a {
       line-height: 1.2;
       text-align: justify;
   }
+  #showcase2 .showcase-content2 .showcase-text2 {
+    display: flex;
+    flex: 2; 
+    object-fit: contain;
+    align-self: auto;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    text-align: justify;
+    max-width: 40%;
+}
     .showcase-row {
       margin-top: 4rem;
       display: flex;
