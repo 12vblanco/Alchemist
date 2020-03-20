@@ -142,6 +142,29 @@ margin-top: 2rem;
   padding:  0.4rem 0.8rem 0.4rem 0.8rem;
   max-width: 300px;
 }
+/* Terms of privacy */
+#terms-content {
+  object-fit: contain;
+  align-self: auto;
+  padding: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  text-align: justify;
+}
+.terms-title {
+color: #c5c4c4;
+text-align: center;
+
+}
+.terms-text {
+color: #c5c4c4;
+text-align: justify;
+
+}
+.privacy {
+text-decoration: none;
+color: #c5c4c4;
+}
 
 
 /* footer */
