@@ -154,6 +154,35 @@ margin-top: 2rem;
 }
 
 /* footer */
+
+#footer {
+  height: 2rem;
+  z-index: 1;
+   }
+#footer p {
+  padding: 0rem 3rem 0rem 3rem;
+}
 .footer-text {
-margin: 6px 0 0 0;
+  font-size: 0.5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  color: #fff;
+  margin-bottom: 3px;
+  }
+.footer-text i {
+  vertical-align: middle;
+  font-size: 10px;
+}
+.copy {
+  font-size: 12px;
+  vertical-align: middle;
+}
+.footer-name {
+  font-size: 8px;
+}
+.insta-nav {
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 0;
 }
