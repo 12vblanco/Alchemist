@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dr+Sugiyama|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
+
 *{
   /*  */
   box-sizing: border-box;
@@ -7,15 +10,12 @@
 }
 
 body {
-  font-family: 'Poppins'; 
-  line-height: 1.4;
+  font-family: 'Cinzel', serif;
   background-color: #000;
   }
 a {
   text-decoration: none;
 }
-
-
   /* Navbar */
   #navbar {
     display: flex;
@@ -23,14 +23,15 @@ a {
     z-index: 1;
     top: 0;
     background: #000000;
-    color: #fff;
+    color: #c5c4c4;
     justify-content: space-around;
     z-index: 1;
     height:120px;
    }
   .logo {
-   font-family: 'Dr Sugiyama', cursive;
-   font-size: 2.6em;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 2.6em;
    justify-content: center;
    text-align: center;
    margin: 2rem;
@@ -42,25 +43,29 @@ a {
     list-style: none;
     }
   #navbar ul li a {
-    color: #fff;
-    padding: 0.75rem;
+    color: #c5c4c4;
+    padding: 0.6rem;
     margin: 0 0.25;
+    font-weight: bold;
   }
+  #navbar ul li a i {
+    font-size: 18px;
+    vertical-align: middle;
+  }
+ 
   #navbar ul li a:hover {
     background: #222;
     border-radius: 8px;
   }
   #navbar ul li i {
-    color: #fff;
-    padding: 0.75rem;
+    color: #c5c4c4;
     margin: 0 0.25;
   }
   /* Showcase */
 
-  /* warning */
 
   #showcase {
-    background: #000 url('#') no-repeat center center/cover;
+    background: #000 ;
     height: 70vh;
     color: #000;
      }
@@ -71,7 +76,7 @@ a {
     text-align: center;
     align-items: center;
     height: 80vh;
-    color: #fff;
+    color: #c5c4c4;
     background-color: #000;
     padding: 1rem 8rem 2rem 8rem;
     }
@@ -89,7 +94,6 @@ a {
       align-self: auto;
       padding: 1rem 3rem;
       font-size: 1.2rem;
-      font-weight: bold;
       line-height: 1.2;
       text-align: justify;
   }
@@ -124,7 +128,7 @@ a {
     justify-content: center;
     align-items: center;
     height: 100%;
-    color: #fff;
+    color: #c5c4c4;
   }
   #contact .contact-form .form-group {
     margin: 0.75rem;
@@ -145,7 +149,7 @@ a {
     }
 #faq {
     padding: 2rem;
-    color: #fff;
+    color: #c5c4c4;
     margin: 0 12rem;
 }
 
@@ -193,29 +197,35 @@ a {
   bottom: 0;
   width: 100vw;
   background: #000000;
-  color: #fff;
+  color: #c5c4c4;
   height: 2.1rem;
    z-index: 1;
+   font-size: 1rem;
    
 }
 .footer-text {
   font-size: 0.6rem;
   display: flex;
   justify-content: center;
-  margin-top: 8px;
+  margin-top: 6px;
   color: #fff;
-  margin-right: 4rem;
-
-}
+  }
+  .footer-text p {
+  }
 .footer-text i {
-  font-size: 8px;
+  font-size: 14px;
+  padding: 3px;
+  vertical-align: middle;
 }
 .copy {
-  font-size: 14px;
+  font-size: 16px;
+  vertical-align: middle;
 }
 .footer-name {
   font-size: 10px;
 }
 .insta-nav {
   color: #fff;
+  font-size: 1rem;
+  padding: 0;
 }
