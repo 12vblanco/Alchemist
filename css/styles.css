@@ -205,10 +205,15 @@ a {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 }
-.container .img-small {
+#portfolio .img-small {
   padding: 0.5rem;
-    }
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
 .container .img-small img {
   display: flex;
 
