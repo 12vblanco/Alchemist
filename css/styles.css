@@ -148,7 +148,7 @@ a {
   align-items: center;
   text-align: center;
   margin: 0 1rem 0 1rem;
-  max-width: 340px;
+  width: 340px;
   margin-top: 1rem;
 }
 #contact h2 {
@@ -177,7 +177,7 @@ a {
 }
 #contact .contact-form input,
 #contact .contact-form textarea {
-  width: 340px;
+  width: 100%
   padding: 0.6rem;
   font-family: "Cinzel", serif;
   border: 0;
@@ -186,13 +186,14 @@ a {
 #contact .contact-form .btn-dark {
   font-weight: 700;
   border: 0;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
   width: 30%;
   height: 50%;
 }
 .contact-privacy {
   font-size: 10px;
   color: #c5c4c4;
+  margin: 1rem;
 }
 .contact-privacy a {
   color: #fff;
