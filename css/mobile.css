@@ -139,6 +139,10 @@
   padding: 0.4rem 0.8rem 0.4rem 0.8rem;
   max-width: 300px;
 }
+/* contact */
+.map {
+  padding-top: 1rem;
+}
 /* Terms of privacy */
 #terms-content {
   object-fit: contain;
