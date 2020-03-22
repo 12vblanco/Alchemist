@@ -98,7 +98,7 @@ a {
   flex: 1;
   object-fit: contain;
   align-self: auto;
-  padding-bottom: 4rem;
+  padding: 1rem 0 4rem 0;
 }
 #showcase .showcase-content .showcase-text {
   display: flex;
