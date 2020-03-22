@@ -140,7 +140,6 @@ a {
 a.anchor-contact {
   display: block;
   position: relative;
-  top: -290px;
   visibility: hidden;
 }
 
