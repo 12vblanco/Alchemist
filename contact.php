@@ -13,7 +13,7 @@
 
    $mailto = "vblanco@mail.com";
    $headers = "From: ".$email;
-   $txt = "You have received an email form ".$name." .\n\n".$message;
+   $txt = "You have received an email form ".$name." .\n\n".$message" .\n\n".$phone";
 
    email($mailto, $txt, $headers);
    header("Location: index.php?mailsend");
