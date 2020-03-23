@@ -199,6 +199,10 @@ a.anchor-contact {
   border-radius: 0.75rem;
   width: 30%;
   height: 50%;
+  cursor: pointer;
+}
+#contact .contact-form .btn-dark:hover {
+  background: #b6b5b5;
 }
 .contact-privacy {
   font-size: 10px;
