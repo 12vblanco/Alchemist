@@ -154,12 +154,17 @@ input[type=text], select, textarea, input[type=email], input[type=phone] {
 
 /* Terms of privacy */
 #terms-content {
+  position: relative;
+  top: 8rem;
   object-fit: contain;
+  max-width: 80%;
+  margin: auto;
   align-self: auto;
   padding: 1rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.2;
   text-align: justify;
+  margin-bottom: 2rem;
 }
 .terms-title {
   color: #c5c4c4;
@@ -167,7 +172,7 @@ input[type=text], select, textarea, input[type=email], input[type=phone] {
 }
 .terms-text {
   color: #c5c4c4;
-  text-align: justify;
+  text-align: center;
 }
 .privacy {
   text-decoration: none;

@@ -149,7 +149,8 @@ input[type=text], select, textarea, input[type=email], input[type=phone] {
 #terms-content {
   object-fit: contain;
   align-self: auto;
-  padding: 1rem;
+  max-width: 90%;
+  /* padding: 1rem; */
   font-size: 0.8rem;
   line-height: 1.2;
   text-align: justify;
@@ -162,7 +163,7 @@ input[type=text], select, textarea, input[type=email], input[type=phone] {
   color: #c5c4c4;
   text-align: justify;
 }
-.privacy {
+.terms-text .privacy {
   text-decoration: none;
   color: #c5c4c4;
 }
