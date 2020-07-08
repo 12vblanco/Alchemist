@@ -20,7 +20,7 @@ body {
 
 /* navbar */
 #navbar {
-  height: 94px;
+  height: 102px;
   width: 100vw;
   vertical-align: middle;
   text-align: center;
@@ -35,7 +35,7 @@ body {
 }
 .logo-text {
   display: inline-block;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   width: auto;
 }
 .menu {
@@ -52,22 +52,22 @@ body {
 }
 .menu li {
   display: inline-block;
-  margin-bottom: 6px;
-  font-size: 1rem;
+  margin-bottom: 3px;
+  font-size: 0.9rem;
 }
 .menu a:hover {
   color: #cc4242;
 }
 .fa-instagram {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-right: 1rem;
 }
 .fa-envelope {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-left: 1rem;
 }
 .fa-facebook-square {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 /* showcase */
