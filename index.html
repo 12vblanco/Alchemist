@@ -75,23 +75,38 @@
 
     <form class="form" name="contact" class="form" method="POST">
          
-          <label class="form-item" for="name"></label>
-          <input type="text" name="name" placeholder="Your Name" required>
+          <!-- <label class="form-item" for="name"></label>
+          <input type="text" name="name" placeholder="Your Name" required> -->
+
+          <p>
+            <label class="form-item"><input type="text" name="name" placeholder="Your Name" required></label>   
+          </p>
+          <p>
+            <label class="form-item"><input type="email" name="email" placeholder="Your Email" required></label>   
+          </p>
+          <p>
+            <label class="form-item"><input type="phone" name="phone" placeholder="Your Phone Number" required></label>   
+          </p>
+          <p>
+            <label><textarea name="message" rows="10" cols="40" placeholder="Your Message" required></textarea></label>
+          </p>
       
-          <label class="form-item" for="email"></label>
-          <input type="email" name="email" placeholder="Your Email" required>
+          <!-- <label class="form-item" for="email"></label>
+          <input type="email" name="email" placeholder="Your Email" required> -->
       
-          <label class="form-item" for="phone"></label>
-          <input type="phone" name="phone" placeholder="Your Phone Number" required>
+          <!-- <label class="form-item" for="phone"></label>
+          <input type="phone" name="phone" placeholder="Your Phone Number" required> -->
       
-          <label class="form-item" for="message"></label>
-          <textarea name="posting" rows="10" cols="40" required></textarea>
+          <!-- <label class="form-item" for="message"></label>
+          <textarea name="posting" rows="10" cols="40" required></textarea> -->
 
           <p><input class="checkbox"type="checkbox" name="terms" value="Yes"> I agree to the <a href="terms.html">terms & conditions</a></p>
 
-        
+          <p>
+            <input class="submit" type="submit" value="Send"></input>
+          </p>
 
-        <input class="submit" type="submit" value="Send" class="btn btn-dark"> 
+        <!-- <input class="submit" type="submit" value="Send" class="btn btn-dark">  -->
            </div> 
       </div>    
     </form> 
