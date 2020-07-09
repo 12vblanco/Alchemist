@@ -179,6 +179,15 @@ input[type=text], select, textarea, input[type=email], input[type=phone] {
   color: #c5c4c4;
 }
 
+/* Thanks */
+.thanks {
+  position: relative;
+  top: 26rem;
+  font-size: 1.4rem;
+  color: white;
+
+}
+
 /* footer */
 
 .footer {
