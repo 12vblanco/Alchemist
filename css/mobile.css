@@ -145,6 +145,16 @@ input[type=text], select, textarea, input[type=email], input[type=phone] {
   width: fit-content;
   padding: 0.8rem;
 }
+/* Thanks */
+.thanks {
+  position: relative;
+  top: 16rem;
+  font-size: 1.2rem;
+  color: white;
+}
+.thanks a:hover {
+  color: #cc4242;
+}
 
 /* Terms of privacy */
 #terms-content {

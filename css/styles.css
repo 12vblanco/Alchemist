@@ -185,7 +185,9 @@ input[type=text], select, textarea, input[type=email], input[type=phone] {
   top: 26rem;
   font-size: 1.4rem;
   color: white;
-
+}
+.thanks a:hover {
+  color: #cc4242;
 }
 
 /* footer */
