@@ -107,12 +107,18 @@ body {
 }
 
 /* contact */
-.contact-form .form-group {
+.contact-form {
+  display: inline-block;
+  margin-bottom: -3rem;
+}
+.form-group {
+  display: inline-block;
   width: 320px;
   margin: auto;
   margin-bottom: -3rem;
 }
 .map {
+  display: inline-block;
   padding-top: 3rem;
   padding-bottom: 1rem;
 }
