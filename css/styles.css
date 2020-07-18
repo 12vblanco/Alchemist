@@ -1,1 +1,218 @@
-@import url(https://fonts.googleapis.com/css?family=Dr+Sugiyama|Poppins&display=swap);@import url(https://fonts.googleapis.com/css?family=Cinzel&display=swap);*{margin:0;padding:0;box-sizing:border-box;text-align:center;align-items:center}a{text-decoration:none;color:#fff}body{font-family:Cinzel,serif;background-color:#000;color:#fff}#navbar{height:120px;width:100%;vertical-align:middle;position:fixed;top:0;z-index:2;background-color:#000}.logo{max-width:100%;display:block;text-align:left;margin:1rem .2rem .2rem .2rem}.logo-text{font-size:3rem;width:auto}.menu{display:inline-block}.menu-left{display:inline-block;margin:0 2rem 0 0}.menu-right{display:inline-block;margin:0 2rem 0 0}.menu li{display:inline-block;margin-bottom:6px;padding:0 4px;font-size:1rem}.menu a:hover{color:#cc4242}.fa-instagram{font-size:1.2rem;margin-right:1rem}.fa-envelope{font-size:1.2rem;margin-left:1rem}.fa-facebook-square{font-size:1.2rem}.showcase-content{position:relative;top:7rem;width:80%;margin:auto}.showcase-logo{max-width:360px}.showcase-text_phone{font-size:1.1rem}.showcase-text{text-align:center;margin-bottom:3rem}.showcase-row img{position:relative;top:-3.2rem;width:15%;margin:1rem}.showcase-text{font-size:1rem;max-width:80%;margin:auto;margin-bottom:3rem}.showcase-text2{font-size:1rem;padding-bottom:4rem;max-width:80%;margin:auto;margin-top:-5rem}.contact-form{display:inline-block;margin-bottom:-3rem}.form-group{display:inline-block;width:320px;margin:auto;margin-bottom:-3rem}.map{display:inline-block;padding-top:3rem;padding-bottom:1rem}input[type=email],input[type=tel],input[type=text],select,textarea{width:100%;padding:.4rem;border-radius:6px;margin-top:6px;margin-bottom:6px;resize:vertical}.form p{font-size:.8rem;margin-bottom:2px}.form a{color:#cc4242}.container .img-area-port img{vertical-align:middle}.img-area-port{position:relative;top:6rem;max-width:90%;margin:auto;vertical-align:middle;text-align:center;margin-bottom:3rem}.img-small{display:inline-block;max-width:100%;max-height:100%;padding:1.2rem}#terms-content{position:relative;top:8rem;object-fit:contain;max-width:80%;margin:auto;align-self:auto;padding:1rem;font-size:1rem;line-height:1.2;text-align:justify;margin-bottom:2rem}.terms-title{color:#c5c4c4;text-align:center}.terms-text{color:#c5c4c4;text-align:center}.privacy{text-decoration:none;color:#c5c4c4}.thanks{position:relative;top:26rem;font-size:1.4rem;color:#fff}.thanks a:hover{color:#cc4242}.footer{width:100%;height:2rem;position:fixed;bottom:0;text-align:center;background:#000;z-index:2}.footer p{color:#fff;font-size:.5rem;vertical-align:middle;position:relative;bottom:-.2rem}.footer .footer-privacy{color:#cc4242}
+@import url(https://fonts.googleapis.com/css?family=Dr+Sugiyama|Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Cinzel&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+body {
+    font-family: Cinzel, serif;
+    background-color: #000;
+    color: #fff;
+}
+#navbar {
+    height: 120px;
+    width: 100%;
+    vertical-align: middle;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: #000;
+}
+.logo {
+    max-width: 100%;
+    display: block;
+    text-align: left;
+    margin: 1rem 0.2rem 0.2rem 0.2rem;
+}
+.logo-text {
+    font-size: 3rem;
+    width: auto;
+}
+.menu {
+    display: inline-block;
+}
+.menu-left {
+    display: inline-block;
+    margin: 0 2rem 0 0;
+}
+.menu-right {
+    display: inline-block;
+    margin: 0 2rem 0 0;
+}
+.menu li {
+    display: inline-block;
+    margin-bottom: 6px;
+    padding: 0 4px;
+    font-size: 1rem;
+}
+.menu a:hover {
+    color: #cc4242;
+}
+.fa-instagram {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.fa-envelope {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.fa-facebook-square {
+    font-size: 1.2rem;
+}
+.showcase-content {
+    position: relative;
+    top: 7rem;
+    width: 80%;
+    margin: auto;
+}
+.showcase-logo {
+    max-width: 360px;
+}
+.showcase-text_phone {
+    font-size: 1.1rem;
+}
+.showcase-text {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.showcase-row img {
+    position: relative;
+    top: -3.2rem;
+    width: 15%;
+    margin: 1rem;
+}
+.showcase-text {
+    font-size: 1rem;
+    max-width: 72%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.showcase-text2 {
+    font-size: 1rem;
+    padding-bottom: 4rem;
+    max-width: 80%;
+    margin: auto;
+    margin-top: -5rem;
+}
+.contact-form {
+    display: inline-block;
+    margin-bottom: -3rem;
+    width: 100vw;
+}
+.form-group {
+    display: inline-block;
+    margin: auto;
+    padding: 3rem 0rem;
+}
+.map {
+    display: inline-block;
+    padding-bottom: 3rem;
+    position: relative;
+    top: -3rem;
+}
+input[type="email"],
+input[type="tel"],
+input[type="text"],
+select {
+    display: inline-block;
+    height: 1.6rem;
+    width: 80%;
+    padding: 0.3rem;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+textarea {
+    width: 80%;
+    display: inline-block;
+    width: 80%;
+    padding: 0.3rem;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+.form p {
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+}
+.form a {
+    color: #cc4242;
+}
+.container .img-area-port img {
+    vertical-align: middle;
+}
+.img-area-port {
+    position: relative;
+    top: 6rem;
+    max-width: 90%;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.img-small {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 1.2rem;
+}
+#terms-content {
+    position: relative;
+    top: 8rem;
+    object-fit: contain;
+    max-width: 80%;
+    margin: auto;
+    align-self: auto;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+.terms-title {
+    color: #c5c4c4;
+    text-align: center;
+}
+.terms-text {
+    color: #c5c4c4;
+    text-align: center;
+}
+.privacy {
+    text-decoration: none;
+    color: #c5c4c4;
+}
+.thanks {
+    position: relative;
+    top: 26rem;
+    font-size: 1.4rem;
+    color: #fff;
+}
+.thanks a:hover {
+    color: #cc4242;
+}
+.footer {
+    width: 100%;
+    height: 2rem;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background: #000;
+    z-index: 2;
+}
+.footer p {
+    color: #fff;
+    font-size: 0.5rem;
+    vertical-align: middle;
+    position: relative;
+    bottom: -0.2rem;
+}
+.footer .footer-privacy {
+    color: #cc4242;
+}
